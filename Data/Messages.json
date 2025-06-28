@@ -1,10 +1,317 @@
 [
-	{
-		"Name": "Chicken 1",
-		"Message": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec qu"
-	},
-	{
-		"Name": "Chicken 2",
-		"Message": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec qu"
-	}
+  {
+	"Timestamp": "5/8/2025 21:42:56",
+	"Name": "Trew Domko",
+	"Message": "Happy birthday Tenchou!!! So proud of how much you've accomplished\n Anytime you put your mind to something you always give it your everything. It's been an absolute pleasure to watch you grow since your debut to the person you are today. I am blessed to call you my Tenchou."
+  },
+  {
+	"Timestamp": "5/9/2025 17:08:33",
+	"Name": "Shane",
+	"Message": "Happy Brithday!"
+  },
+  {
+	"Timestamp": "5/9/2025 18:13:28",
+	"Name": "Nasu",
+	"Message": "Happy birthday kiwawa, I only can wish you the best in this your day and in the days to come. Thank you for being so kind and friendly to everyone. It's been difficult since Gura's graduation, you've been a shining light in this time of darkness...Gracias por todo kiwawa!!!"
+  },
+  {
+	"Timestamp": "5/10/2025 6:46:30",
+	"Name": "Merle☆綠鳥",
+	"Message": "Boss! Herzlichen Glückwunsch zum Geburtstag!"
+  },
+  {
+	"Timestamp": "5/11/2025 14:15:13",
+	"Name": "DemonRykuKyuubi (Discord) or @Ryku_The_Fox (X/Twitter)",
+	"Message": "Happy Birthday, Kiara! Thank you so much for all the fun streams, wonderful choreography and singing, and uplifting energy you bring to us! I hope today is full of joy and you can rest from some of the stressful things you don't talk about ^_^"
+  },
+  {
+	"Timestamp": "5/13/2025 15:50:46",
+	"Name": "Remurin KFP",
+	"Message": "Can't believe you Today is our queen's birthday, yay! You've been with us for five years now, it's amazing! I wish you A LOT loyal fans, happiness and that you never get sick. I'm very happy to having cute, beautiful and beloved kami-oshi like you! Love Wawa very much!"
+  },
+  {
+	"Timestamp": "5/13/2025 21:13:30",
+	"Name": "KR555Wizard",
+	"Message": "Happy birthday to our wonderful tenchou! \nShe is the spark that brings smiles to our faces!  \nWe all really love her I hope that she knows!  \nThis message is from fans from many places!\nViva La Kiara!"
+  },
+  {
+	"Timestamp": "5/15/2025 23:55:06",
+	"Name": "sharkarasu(sharlaine)",
+	"Message": "Happy Birthday, Wawa! 5 years of wonderful experience from your work and the community you built, i truly am greatful for your existence and your hard work. I also want to thank you for being the fire for my art. Heres to more years of prosperous projects and more WAWA!"
+  },
+  {
+	"Timestamp": "5/17/2025 21:29:45",
+	"Name": "旅人",
+	"Message": "Happy birthday my kamioshi kiwawa!!!!!!!!!!!!!!! You are the best phoenix in my heart🧡🧡🧡🧡🧡"
+  },
+  {
+	"Timestamp": "5/18/2025 7:25:56",
+	"Name": "Kase Rumiauz",
+	"Message": "Herzlichen Glückwunsch zum Burzeltag. May the upcoming year filled to the brim with happiness."
+  },
+  {
+	"Timestamp": "5/18/2025 9:45:55",
+	"Name": "Light - Space KoroKFBeat",
+	"Message": "Happy Birthday Kiara, i hope you had a lot of fun playing all the Games KFP made for you. First i want to say, i am so proud of what you have achived, be it Music or finally taking the step and taking therapy, this is not a easy thing to do. I will forever support you."
+  },
+  {
+	"Timestamp": "5/20/2025 11:57:44",
+	"Name": "Kitty - KFP Tomato Slicer",
+	"Message": "Happiest Birthday to my oshi!! Alles Liebe zum Geburtstag~ May you eat delicious food and all of your dreams come true for the coming year. Thank you for everything you have done for us!"
+  },
+  {
+	"Timestamp": "5/23/2025 12:38:15",
+	"Name": "Desmond Shannon",
+	"Message": "I wanna wish you a huge huge happy birthday Kiara My beloved OSHI!"
+  },
+  {
+	"Timestamp": "5/23/2025 12:38:34",
+	"Name": "Yvonne",
+	"Message": "We love you, kiwawaaaa 🧡"
+  },
+  {
+	"Timestamp": "5/23/2025 12:44:00",
+	"Name": "BryanCroiDragon",
+	"Message": "Happy birthday, Kiara. Let much joy and happiness come to you this day, for you bring so much joy and happiness to us. Like knights in search of a Camelot, paladins in search of a Charlemagne, we have come to thee, great phoenix. May this day of days be a great one. Kikkiriki!"
+  },
+  {
+	"Timestamp": "5/23/2025 12:44:10",
+	"Name": "Rhett",
+	"Message": "You and HoloMyth came at a time in my life where I was struggling, and you guys helped me find my smile again. Whether it's your tangents, your GTA streams, or you being the camera guy in EnReco, you continue to make me smile. Thank you Kiara, for helping me find my smile."
+  },
+  {
+	"Timestamp": "5/23/2025 12:52:49",
+	"Name": "Trogdor",
+	"Message": "Happy Birthday Kiara! I hope you have time to take your Maldives spearfishing vacation soon"
+  },
+  {
+	"Timestamp": "5/23/2025 12:57:17",
+	"Name": "Lootria",
+	"Message": "HBD wawa, wish you all the best!"
+  },
+  {
+	"Timestamp": "5/23/2025 13:03:05",
+	"Name": "Tuxツ",
+	"Message": "HAPPY BIRTHDAY Kiara 🧡🎉🎉 I wish you and your family a lot of joy and health. I'm glad to have met you, I love every single silly day with you. Enjoy your day and remember, this day is just for you and it’s only once In year. 🙏"
+  },
+  {
+	"Timestamp": "5/23/2025 14:01:30",
+	"Name": "Skrully_29",
+	"Message": "HAPPY BIRTHDAY KIARA , hope your having the best bday and many more to come , your the most amazing , kind, and creative phoenix out there :)"
+  },
+  {
+	"Timestamp": "5/23/2025 14:23:24",
+	"Name": "ScooterBooter",
+	"Message": "Happy birthday! Thank you very much for everything you do and the time and effort you put yourself to constantly make streams and content entertaining for all the KFP. And also love how down to earth you are being able to express yourself. Much love! Take care of yourself 🧡"
+  },
+  {
+	"Timestamp": "5/23/2025 23:04:17",
+	"Name": "The Karaoke Maker (SD8)",
+	"Message": "Happy Birthday Kiwawa!!!!! Hope you have an amazing birthday 🧡🧡\nP.S. I have made songs of yours as a karaoke 👀"
+  },
+  {
+	"Timestamp": "5/24/2025 5:02:20",
+	"Name": "StoryCorner",
+	"Message": "Happy Birthday Tenchou! Another year rolls around, and many great memories behind, and new ones on the way! As you fly across the skies, your fire rains to the ground, but instead of burning, it gives new life and inspiration!"
+  },
+  {
+	"Timestamp": "5/25/2025 1:58:07",
+	"Name": "SpineCricket",
+	"Message": "Happy birthday Kiara! A big big thank you for everything you've done for us and I hope you have amazing and bright days ahead, much love and I hope you enjoy your time!!"
+  },
+  {
+	"Timestamp": "5/25/2025 4:27:57",
+	"Name": "UNKNOWN",
+	"Message": "Happy Birthday, Wawa! I can't believe it's already your 5th birthday! I just want to say thank you so much for everything you do. You always brighten my day and make me so happy. Thank you for being you. You truly are the best and I'm so glad to be your fan. Love you, my oshi.🧡"
+  },
+  {
+	"Timestamp": "5/28/2025 5:16:32",
+	"Name": "Newkylesmith555",
+	"Message": "Happy Birthday Kiara Were So Proud How Far You've Come\nYour Are kind, worthy & Invincible."
+  },
+  {
+	"Timestamp": "6/2/2025 15:47:22",
+	"Name": "OmenofthePhoenix",
+	"Message": "Happy Birthday Kiara! One day I'll make a game, but I was busy sorting out my first trip to Europe during the jam. I hope you enjoy everything everyone has made!\n(P.S. You're my Kami-Oshi and always will be. Keep up the good work!)"
+  },
+  {
+	"Timestamp": "6/3/2025 16:20:48",
+	"Name": "ScooterBooter",
+	"Message": "Happy Birthday Kiwawa! Thank you for the content and always looking out for the KFP! Keep being yourself 🧡"
+  },
+  {
+	"Timestamp": "6/3/2025 16:27:13",
+	"Name": "HarperDashy",
+	"Message": "HAPPY BDAY WAWA!!!! I'm not good with birthday letters but i hope you have awesome and unforgivable memories on your special day!!"
+  },
+  {
+	"Timestamp": "6/3/2025 22:37:43",
+	"Name": "TennogenHQ",
+	"Message": "Hey there, Kiara!! Happy Birthday from a KFP Member, TennogenHQ from the Void of the Origin System! Also I'd enjoy watching your streams like a true Hololive fan even through this year. Have fun!!!"
+  },
+  {
+	"Timestamp": "6/3/2025 23:01:08",
+	"Name": "OmegaGamingChan",
+	"Message": "I kept going back and forth on what I should say but I realized that it would take forever so I’m thankful for an amazing Kami-Oshi who’s absolutely just the greatest but more importantly I want to wish you a Happy Birthday Wawa! Thank you for everything that you do 🧡"
+  },
+  {
+	"Timestamp": "6/4/2025 0:00:39",
+	"Name": "Ghostbyun",
+	"Message": "I can't think of anything that I haven't said before but happy birthday, Wawa!!! Thank you for always brightening my day!"
+  },
+  {
+	"Timestamp": "6/5/2025 21:53:34",
+	"Name": "Swan_Flyer",
+	"Message": "HAPPY BIRD-DAY KIARA!!!! I hope that your special day goes wonderfully and memories are made. I'm happy to see you shine brightly and blaze across the world, like the phoenix you are."
+  },
+  {
+	"Timestamp": "6/6/2025 9:47:43",
+	"Name": "SpineCricket",
+	"Message": "HBD Wawa!! I hope you have an amazing day and many more to come! You deserve it, thank you for everything!!"
+  },
+  {
+	"Timestamp": "6/7/2025 19:01:37",
+	"Name": "Boohoo723",
+	"Message": "Happy birthday Kiara! Looking forward to all the times to come."
+  },
+  {
+	"Timestamp": "6/8/2025 6:45:03",
+	"Name": "pasteldreamsu (x/twt or discord)",
+	"Message": "happy birthday to you!!! hope you get lots of cake and chicken and phoenixes and all! cheers to more memories to come ❤‼️‼️"
+  },
+  {
+	"Timestamp": "6/8/2025 8:32:57",
+	"Name": "LuLu",
+	"Message": "Happy Birthday Wawa! I love u <3!"
+  },
+  {
+	"Timestamp": "6/8/2025 15:31:28",
+	"Name": "cmndrmuffin",
+	"Message": "happy bday wawa!!! we all love you so much :) hope i can participate in next years jam!"
+  },
+  {
+	"Timestamp": "6/9/2025 1:38:40",
+	"Name": "Temtatork",
+	"Message": "Even if you didnt like A Minecraft Movie, for me you are my Chicken Jockey :_daw:"
+  },
+  {
+	"Timestamp": "6/12/2025 15:59:32",
+	"Name": "Pudding",
+	"Message": "The Most Merry Borning Moment Yayyyyyy~"
+  },
+  {
+	"Timestamp": "6/12/2025 16:00:14",
+	"Name": "Bang Shishigami",
+	"Message": "Hello Kiara! Greetings from Costa Rica! I have had the luck to meet several kfps in my country, you are pretty popular, more than you think! You are one of the people I admire the most in the world, keep going you can do it!"
+  },
+  {
+	"Timestamp": "6/13/2025 0:10:32",
+	"Name": "Naweed Ahmedi",
+	"Message": "Happy Birthday Kiara! 🥳"
+  },
+  {
+	"Timestamp": "6/13/2025 0:11:31",
+	"Name": "Davkas",
+	"Message": "Happy Birthday, Tenchou!!! Hard to believe it's already been 5 years! You never cease to inspire me with with your music and your perseverance in striving for excellence in everything you do. I look forward to seeing what you still have up your sleeve next! Keep being awesome!"
+  },
+  {
+	"Timestamp": "6/13/2025 0:45:12",
+	"Name": "Caveman",
+	"Message": "Happy Birthday Kiara! It's been many years and I do worry I run out of things to say but I wouldn't ever trade that time. I could listen to your yaps for hours on whatever game or yap it is and its a great time always. Take care with your work. I always appreciate your effort."
+  },
+  {
+	"Timestamp": "6/22/2025 16:11:36",
+	"Name": "SilverSergio",
+	"Message": "Happy birbday, boss ^^ 5th birthday with Hololive and KFP, what a milestone! Wishing you the bestest and the happiest future possible <3 Much-much luv >v<"
+  },
+  {
+	"Timestamp": "6/22/2025 16:24:05",
+	"Name": "Valdien - KFP Tanker",
+	"Message": "Happy birthday to the best, most talented, most beautiful, most funniest, most sexy, most amazing orange woman to ever exist. Love you tenchou !"
+  },
+  {
+	"Timestamp": "6/22/2025 16:56:10",
+	"Name": "Shinuro Myx",
+	"Message": "Happy birthday Kiara!!!! I'm so proud of how far you've come and how far you'll keep going. Through highs and lows you've shown strength and confidence and kept rising higher like a true phoenix. Never put your head down low, as you deserve the best"
+  },
+  {
+	"Timestamp": "6/22/2025 17:37:11",
+	"Name": "8_on_the_calculator",
+	"Message": "Enjoy every second of life, you are a good person. HBD Kiara\n- 8"
+  },
+  {
+	"Timestamp": "6/22/2025 18:24:18",
+	"Name": "Ruin",
+	"Message": "Happy Birthday Kiara! Thank you so much for continuing to being myself and others so much joy, you a really are a star. Here’s to another amazing year!"
+  },
+  {
+	"Timestamp": "6/22/2025 19:04:11",
+	"Name": "Mentaljedi (EmperorKira)",
+	"Message": "Happy Birthday Wawa! The years go by, yet we feel like we're all growing together and getting closer as a fanbase. KFP can be so creative, just like their Oshi! Here's to many more years!"
+  },
+  {
+	"Timestamp": "6/23/2025 2:38:28",
+	"Name": "Sci",
+	"Message": "Hi Kiara! It's time to celebrate another birthday with you and I'm so happy to have you here for it. While we've had our ups and downs this year, I'm still glad that you've given us so much to cheer for. We appreciate all that you do and we love you!"
+  },
+  {
+	"Timestamp": "6/23/2025 10:56:10",
+	"Name": "綠鳥✰Merle",
+	"Message": "You're my most favorite hen ever!!!!"
+  },
+  {
+	"Timestamp": "6/23/2025 11:49:09",
+	"Name": "Plagesama",
+	"Message": "I hope you have an amazing birthday full of all the love and warmth you share with us Wawa!"
+  },
+  {
+	"Timestamp": "6/24/2025 4:32:08",
+	"Name": "Transcendent",
+	"Message": "Happy Birthday Tenchou! Blessings from a KFP for life! May we see a lot more of you and your great projects!"
+  },
+  {
+	"Timestamp": "6/24/2025 4:53:05",
+	"Name": "Sky [0569]  (Youtube)",
+	"Message": "Let's celebrate for THE most amazing, lovely, hot girl Takanashi Kiara 5th hololive birthday! Viva la Kiara!"
+  },
+  {
+	"Timestamp": "6/26/2025 16:22:40",
+	"Name": "Lex",
+	"Message": "Happy birth in your shoe, wawa!!! My kami oshi for all time. May smoothie and chonkers give you much attention today."
+  },
+  {
+	"Timestamp": "6/26/2025 16:29:27",
+	"Name": "JKgeneral2",
+	"Message": "Happy birthday Kiara! It's been a long five years but somehow it also doesn't even feel like a single one has passed. Remember to take things easy on yourself, and I hope the future holds nothing but happiness for you."
+  },
+  {
+	"Timestamp": "6/26/2025 17:01:54",
+	"Name": "Alex YT",
+	"Message": "Thank you for all the time and passion you dedicate to us KFP , I wish you a thousand more of these days!"
+  },
+  {
+	"Timestamp": "6/26/2025 17:33:58",
+	"Name": "Fry3k",
+	"Message": "Herzlichen Glückwunsch und alles Gute zum Geburtstag, Kiara! Wishing for you to find health and happiness and having many, many more fun and successful years in hololive! 🧡🧡🧡"
+  },
+  {
+	"Timestamp": "6/26/2025 18:28:35",
+	"Name": "Soppy-  KFP Bartender",
+	"Message": "HAPPY BIRTHDAY WAWA!"
+  },
+  {
+	"Timestamp": "6/26/2025 18:48:46",
+	"Name": "pandeshiro",
+	"Message": "I don't want to be too cheesy but, from 2021-2025 you had been my oshi and has always been a source of comfort and burst of joy althroughout my days meeting you. I'm so glad that we KFP had the pleasure of meeting you, loving you, and adoring you. Happy Birthday, Kiara!! 🥺🫶🏼🧡"
+  },
+  {
+	"Timestamp": "6/26/2025 19:15:26",
+	"Name": "Twitter: @_SushiBa",
+	"Message": "Happy birthday my favorite mighty phoenix! May this year bring you all the happiness you deserve. Thank you for being such a genuine, warm-hearted and inspiring person. Love you Kiwawa <3"
+  },
+  {
+	"Timestamp": "6/26/2025 20:52:05",
+	"Name": "KR555Wizard",
+	"Message": "To the dearest Chic i mean Phoenix who is my guiding light, have a happy birthday full of joy, with all the love from family, friends and fans! Viva La Kiara! Now and forever!"
+  }
 ]

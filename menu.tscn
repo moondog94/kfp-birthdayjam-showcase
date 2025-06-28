@@ -71,3 +71,4 @@ scale = Vector2(0.355, 0.355)
 texture = ExtResource("2_ouk20")
 
 [connection signal="pressed" from="VBoxContainer/GameListButton" to="." method="_on_game_list_button_pressed"]
+[connection signal="pressed" from="VBoxContainer/MessagesButton" to="." method="_on_messages_button_pressed"]

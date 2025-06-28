@@ -1,5 +1,6 @@
-[gd_scene load_steps=4 format=3 uid="uid://cm111650852qp"]
+[gd_scene load_steps=5 format=3 uid="uid://cm111650852qp"]
 
+[ext_resource type="Script" uid="uid://bevmsqreu5onh" path="res://game_list.gd" id="1_cfuuo"]
 [ext_resource type="Texture2D" uid="uid://dqxw5vlmkiihn" path="res://assets/kfpbackground.png" id="1_ri3ii"]
 [ext_resource type="Script" uid="uid://2kbrxwga57ma" path="res://game_list_container.gd" id="2_6ag1g"]
 [ext_resource type="PackedScene" uid="uid://b72f35qnnyhf8" path="res://game_list_item.tscn" id="3_hweat"]
@@ -11,6 +12,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_cfuuo")
 
 [node name="Background" type="TextureRect" parent="."]
 z_index = -1
@@ -50,13 +52,17 @@ layout_mode = 2
 [node name="ScrollContainer" type="ScrollContainer" parent="PanelContainer/MarginContainer/VBoxContainer"]
 layout_mode = 2
 size_flags_vertical = 3
+horizontal_scroll_mode = 0
 script = ExtResource("2_6ag1g")
 prefab = ExtResource("3_hweat")
 
 [node name="VBoxContainer" type="VBoxContainer" parent="PanelContainer/MarginContainer/VBoxContainer/ScrollContainer"]
 layout_mode = 2
 size_flags_horizontal = 3
+theme_override_constants/separation = 80
 
 [node name="Button" type="Button" parent="PanelContainer/MarginContainer/VBoxContainer"]
 layout_mode = 2
 text = "Back"
+
+[connection signal="button_down" from="PanelContainer/MarginContainer/VBoxContainer/Button" to="." method="_on_press_back_button"]
