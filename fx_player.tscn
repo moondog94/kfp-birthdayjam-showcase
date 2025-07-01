@@ -4,3 +4,5 @@
 
 [node name="FxPlayer" type="Node"]
 script = ExtResource("1_25y0n")
+
+[connection signal="ready" from="." to="." method="_on_ready"]

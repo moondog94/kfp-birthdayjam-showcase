@@ -76,3 +76,4 @@ texture = ExtResource("2_ouk20")
 [connection signal="mouse_entered" from="VBoxContainer/MessagesButton" to="." method="_on_messages_button_mouse_entered"]
 [connection signal="pressed" from="VBoxContainer/MessagesButton" to="." method="_on_messages_button_pressed"]
 [connection signal="mouse_entered" from="VBoxContainer/SettingsButton" to="." method="_on_settings_button_mouse_entered"]
+[connection signal="pressed" from="VBoxContainer/SettingsButton" to="." method="_on_settings_button_pressed"]

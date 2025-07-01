@@ -2,13 +2,13 @@
 
 importer="wav"
 type="AudioStreamWAV"
-uid="uid://dd0sfc0t7imkr"
-path="res://.godot/imported/blip-2.wav-2224ecc7866949dcb0798af8ae9155f1.sample"
+uid="uid://cknx0fo1lh86i"
+path="res://.godot/imported/blip_1.wav-aff4042994b5176c5241dc533ce74cc4.sample"
 
 [deps]
 
-source_file="res://sound/soundeffects/blip-2.wav"
-dest_files=["res://.godot/imported/blip-2.wav-2224ecc7866949dcb0798af8ae9155f1.sample"]
+source_file="res://sound/soundeffects/blip_1.wav"
+dest_files=["res://.godot/imported/blip_1.wav-aff4042994b5176c5241dc533ce74cc4.sample"]
 
 [params]
 

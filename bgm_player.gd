@@ -4,6 +4,9 @@ const mirage_bgm = preload("res://sound/bgm/Chiptune Mirage - Loop Version (loop
 
 var pause_pos = 0.0
 
+func _on_ready() -> void:
+	volume_db = 0.0
+
 func _play_bgm(bgm: AudioStream, volume: float = 0.0):
 	if stream == bgm:
 		return

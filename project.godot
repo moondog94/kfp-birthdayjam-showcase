@@ -18,13 +18,16 @@ config/icon="res://icon.svg"
 [autoload]
 
 StaticData="*res://Singletons/StaticData.gd"
+BgmPlayerScript="*res://bgm_player.gd"
 BgmPlayer="*res://bgm_player.tscn"
 FxPlayer="*res://fx_player.tscn"
+FxPlayerScript="*res://fx_player.gd"
 
 [display]
 
 window/size/viewport_width=1280
 window/size/viewport_height=720
+mouse_cursor/custom_image="uid://de20mb2fxk1a6"
 
 [editor]
 
