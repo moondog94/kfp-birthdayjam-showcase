@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://bt81r72j4owgt"]
+
+[ext_resource type="Script" uid="uid://cw0f40lfn2e0j" path="res://fx_player.gd" id="1_25y0n"]
+
+[node name="FxPlayer" type="Node"]
+script = ExtResource("1_25y0n")

@@ -18,6 +18,8 @@ config/icon="res://icon.svg"
 [autoload]
 
 StaticData="*res://Singletons/StaticData.gd"
+BgmPlayer="*res://bgm_player.tscn"
+FxPlayer="*res://fx_player.tscn"
 
 [display]
 
