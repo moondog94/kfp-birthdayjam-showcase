@@ -2,7 +2,7 @@
 	{
 		"Name": "A Salt & Battering",
 		"ImageURL": "asalt&battery.png",
-		"URI": "https://itch.io/jam/kfp-birthday-jam-2025/rate/3639658",
+		"URI": "https://theoku.itch.io/asaltandbattering",
 		"Description": "The KFP have decided to unionize, but someone has to feed these hungry customers!",
 		"Message": "Message from the team:
 Kiara, we had fun and worked really hard to create this game together, we hope you enjoy it and happy birthday!!
@@ -33,10 +33,66 @@ Its toooooooooooooooooooooooooooooooooooo lit
 - The Automagical Automobehicle"
 	},
 	{
-		"Name": "Game 2",
-		"ImageURL": "",
-		"URI": "",
-		"Description": "",
+		"Name": "KFP Fury",
+		"ImageURL": "kfpfury.png",
+		"URI": "https://alphros.itch.io/kfp-fury",
+		"Description": "Made for KFP Birthday Jam 2025
+
+Fire (literally) all the slacking employees as Kiara and leave the working ones alone!",
+		"Message": "Happy Birthday!"
+	},
+	{
+		"Name": "Frogiwawa's Sugar Rush",
+		"ImageURL": "frogiarasugarrush.png",
+		"URI": "https://bluruler.itch.io/frogiwawas-sugar-rush",
+		"Description": "Frogiwawa's Sugar Rush is a time-based, sugar-fueled wave shooter about stuffing your tummy with delicious gummies. Defeat pesky Gummy Worms to fill up your tummy gauge and unlock powerful weapons. But BE CAREFUL! Take too many hits, and you’ll get sick.",
+		"Message": "Silly game for best oshi"
+	},
+	{
+		"Name": "DYNAMIC (wip)",
+		"ImageURL": "dyanmic.png",
+		"URI": "https://du5ksama.itch.io/dynamic",
+		"Description": "Mini fan game for KFP Birthday Jam 2025",
 		"Message": ""
+	},
+	{
+		"Name": "The Legend of Kiara: Three's a Crow-d",
+		"ImageURL": "legendofkiara.png",
+		"URI": "https://logicalfish.itch.io/legend-of-kiara-threes-a-crow-d",
+		"Description": "Oh no! Kiara has been robbed and her chickens have been chicknapped!
+
+Can you make your way through Castle Caw-nclave and defeat the culprits in this action adventure game?",
+		"Message": "Takanashi Kiara,
+
+For the longest time, I've wanted to make a game for my oshi, (that's you!), though I've held myself back with a lack of confidence. I'm glad this GameJam forced me to get to work and just create something.
+This game contains two weeks worth of passion (and panic!) from us. I learned a great deal from the process, and I am proud of what we have produced!
+I hope you enjoyed playing it as much as we enjoyed creating it!
+I would like to thank my team, Aurick and LighSkyCe. I could not have done this without them. I'd also like to extend my thanks to the GameJam organizers for their wonderful idea. And last, but certainly not least, I want to thank you, Kiara, for being an inspiration.
+And who knows? Maybe this won't be the last project you see from me!
+
+Signed, LogicalParadox,
+With love from Aurick & LighSkYce."
+	},
+	{
+		"Name": "Jimmy's Dilemma",
+		"ImageURL": "jimmydilemma.png",
+		"URI": "https://apoools.itch.io/jimmys-dilemma",
+		"Description": "Jimmy is broke and in need of a job,but Kiara is there to save the day.Help Jimmy keep this job or he's toast(literally)",
+		"Message": ""
+	},
+	{
+		"Name": "KFP is Inevitable",
+		"ImageURL": "kfpisinevitable.png",
+		"URI": "https://awesomeaxolotl.itch.io/kfp-is-inevitable",
+		"Description": "A poker-like card game (heavily inspired by 'I was a Teenage Exocolonist'). Line up straights, pairs or cards of the same color to get higher scores. Add cards to your deck to improve it.",
+		"Message": "Thank you Kiara for all the effort you put into your streams. I apprecciate you a lot. There's so many tidbits I still wanted to add to my game (or even actually have good writing for the content that's there) but time just did not allow it. The game doesn't even have your cats!
+Anyway... I hope you have a good holo birthday."
+	},
+	{
+		"Name": "Talkshow",
+		"ImageURL": "",
+		"URI": "https://asbestosstar.itch.io/talkshow",
+		"Description": "This is a game for Kiaras Birthday Stream related to her talkshow, holotalk, my faviourite of her serieses.",
+		"Message": "I love you Kiara, I sadly did not have all that much time, but I really like your talk show, holotalk, which is why I decided to make this game based on it."
 	}
 ]

@@ -17,6 +17,7 @@ var items:Array:
 			gamePanel = prefab.instantiate() as PanelContainer
 			var label = gamePanel.get_node_or_null("VBoxContainer/HBoxContainer/VBoxContainer/Label")  # Adjust path if it's nested
 			var description = gamePanel.get_node_or_null("VBoxContainer/HBoxContainer/VBoxContainer/Description")
+			var logo = gamePanel.get_node_or_null("VBoxContainer/HBoxContainer/Logo")
 			var playButton = gamePanel.get_node_or_null("VBoxContainer/HBoxContainer/VBoxContainer/MarginContainer/LinkButton")
 			label.text = game.Name
 			description.text = game.Description
