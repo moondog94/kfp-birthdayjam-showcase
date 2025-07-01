@@ -1,25 +1,15 @@
-[gd_scene load_steps=4 format=3 uid="uid://b72f35qnnyhf8"]
-
-[ext_resource type="Script" uid="uid://cdq8vmtiot7sj" path="res://game_list_item.gd" id="1_2n7jr"]
-[ext_resource type="Texture2D" uid="uid://csjr2wnlmi7od" path="res://icon.svg" id="1_hnvx1"]
-[ext_resource type="Script" uid="uid://cpb47dfyhw6yw" path="res://addons/collapsible_container/collapsible_elements/collapsible_container.gd" id="2_eguc7"]
+[gd_scene format=3 uid="uid://bpidamg441m28"]Add commentMore actions
 
 [node name="PanelContainer" type="PanelContainer"]
 offset_right = 841.0
 offset_bottom = 132.0
 size_flags_horizontal = 3
-script = ExtResource("1_2n7jr")
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
 layout_mode = 2
 
 [node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer"]
 layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="VBoxContainer/HBoxContainer"]
-layout_mode = 2
-texture = ExtResource("1_hnvx1")
-stretch_mode = 4
 
 [node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/HBoxContainer"]
 layout_mode = 2
@@ -31,79 +21,6 @@ size_flags_horizontal = 6
 size_flags_vertical = 0
 text = "Game Title"
 
-[node name="Description" type="Label" parent="VBoxContainer/HBoxContainer/VBoxContainer"]
+[node name="Message" type="Label" parent="VBoxContainer/HBoxContainer/VBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 4
-
-[node name="MarginContainer" type="MarginContainer" parent="VBoxContainer/HBoxContainer/VBoxContainer"]
-layout_mode = 2
-
-[node name="LinkButton" type="LinkButton" parent="VBoxContainer/HBoxContainer/VBoxContainer/MarginContainer"]
-layout_mode = 2
-size_flags_horizontal = 4
-text = "PLAY NOW"
-underline = 2
-
-[node name="Button" type="Button" parent="VBoxContainer"]
-layout_mode = 2
-toggle_mode = true
-text = "Show More"
-flat = true
-
-[node name="CollapsibleContainer" type="Control" parent="VBoxContainer"]
-process_mode = 3
-editor_description = "
-			A custom/plugin Control node capable of hiding and revealing its children by folding and unfolding.
-			
-Give feedback at: https://github.com/ArshvirGoraya/Godot-Collapsible-Container"
-clip_contents = true
-custom_minimum_size = Vector2(841, 0)
-layout_mode = 2
-size_flags_vertical = 3
-script = ExtResource("2_eguc7")
-starts_opened = false
-start_with_clip_contents = false
-folding_direction_preset = 15
-sizing_constraint = 1
-auto_update_size = 1
-sizing_node = NodePath("PanelContainer")
-metadata/_custom_type_script = "uid://cpb47dfyhw6yw"
-
-[node name="PanelContainer" type="PanelContainer" parent="VBoxContainer/CollapsibleContainer"]
-layout_mode = 0
-offset_right = 841.0
-offset_bottom = 190.0
-
-[node name="RichTextLabel" type="RichTextLabel" parent="VBoxContainer/CollapsibleContainer/PanelContainer"]
-layout_mode = 2
-text = "Message from the team:
-Kiara, we had fun and worked really hard to create this game together, we hope you enjoy it and happy birthday!!
-- A salt & Battering team
-
-Messages from individuals on the team:
-
-Dear Kiwawa,
-I remember meeting you at Anime Boston 2023 and being so completely starstruck that i couldn’t say everything i wanted to. Even now, I’m not sure how to express the endless amounts of gratitude and admiration I have for you. So I’ll say these: Every stream, I try best to be like you: trying bring a smile to everyone you can.
-Hoping you have the bestest birthday, because you deserve it!
-With Love,
-Honeysaur
-
-Kiara,
-Happy Birthday! Thank you for all the laughs you've brought us throughout the years. Looking forward to seeing what you have in store for us in the future!
-- Skiddosaur
-
-Dear Kiara,
-Thanks for being you! You’ve been a shining light for so long and I always make sure to rep your omocat collab hoodie whenever I can!! Happy birthday!
-I think it’s fun to share them
-- doog
-
-Dear Kiara,
-Thank you for being an amazing oshi who inspires me to be like a phoenix: starting each day anew and trying to be my best self. Happy birthday!
-- theoku
-
-Its toooooooooooooooooooooooooooooooooooo lit
-- The Automagical Automobehicle"
-fit_content = true
-scroll_active = false
-
-[connection signal="toggled" from="VBoxContainer/Button" to="." method="_on_show_more_button_toggled"]

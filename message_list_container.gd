@@ -15,7 +15,14 @@ var items:Array:
 		var messagePanel:PanelContainer
 		for message in items:
 			messagePanel = prefab.instantiate() as PanelContainer
-				
+			var label = messagePanel.get_node_or_null("MarginContainer/VBoxContainer/Label")  # Adjust path if it's nestedAdd commentMore actions
+			var description = messagePanel.get_node_or_null("MarginContainer/VBoxContainer/Message")
+			
+			if label:
+				label.text = message.Name
+			
+			if description:
+				description.text = message.Message	
 			container.add_child(messagePanel)
 
 func _ready():
