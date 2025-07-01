@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://ckbr2qn53iggm"]
+[gd_scene load_steps=5 format=3 uid="uid://ckbr2qn53iggm"]
 
 [ext_resource type="Script" uid="uid://do16j6t7wv6nb" path="res://messages.gd" id="1_6quki"]
 [ext_resource type="Texture2D" uid="uid://dqxw5vlmkiihn" path="res://assets/kfpbackground.png" id="2_6agxd"]
 [ext_resource type="Script" uid="uid://bsvhh2w4050gm" path="res://message_list_container.gd" id="3_x74bt"]
+[ext_resource type="PackedScene" uid="uid://bpidamg441m28" path="res://message_item.tscn" id="4_6quki"]
 
 [node name="Messages" type="Control"]
 layout_mode = 3
@@ -53,6 +54,7 @@ layout_mode = 2
 size_flags_vertical = 3
 horizontal_scroll_mode = 0
 script = ExtResource("3_x74bt")
+prefab = ExtResource("4_6quki")
 
 [node name="VBoxContainer" type="VBoxContainer" parent="PanelContainer/MarginContainer/VBoxContainer/ScrollContainer"]
 layout_mode = 2
