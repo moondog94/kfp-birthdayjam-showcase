@@ -5,6 +5,8 @@ var blip2 = preload("res://sound/soundeffects/blip_2.wav")
 var sword1 = preload("res://sound/soundeffects/sword_whip_1.wav")
 var sword2 = preload("res://sound/soundeffects/sword_whip_2.wav")
 var sword3 = preload("res://sound/soundeffects/sword_whip_3.wav")
+var expand = preload("res://sound/soundeffects/expand.wav")
+var collapse = preload("res://sound/soundeffects/collapse.wav")
 
 var fx_volume_db: float = -4.0
 
@@ -41,3 +43,9 @@ func play_sword() -> void:
 	elif rand_num == 3:
 		play_FX(sword3)
 	
+
+func play_expand() -> void:
+	play_FX(expand)
+	
+func play_collapse() -> void:
+	play_FX(collapse)
