@@ -193,11 +193,9 @@ grow_horizontal = 2
 grow_vertical = 2
 alignment = 1
 selected = 0
-item_count = 2
+item_count = 1
 popup/item_0/text = "Mirage"
 popup/item_0/id = 0
-popup/item_1/text = "Chimera"
-popup/item_1/id = 1
 
 [node name="Label" type="Label" parent="OptionButton"]
 layout_mode = 1

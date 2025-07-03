@@ -3,7 +3,7 @@ extends AudioStreamPlayer
 
 
 const mirage_bgm = preload("res://sound/bgm/Chiptune Mirage - Loop Version (looped 1 time - fixed) - Normalized.mp3")
-const chimera_bgm = preload("res://sound/bgm/Takanashi Kiara CHIMERA 8-Bit Remix.mp3")
+#const chimera_bgm = preload("res://sound/bgm/Takanashi Kiara CHIMERA 8-Bit Remix.mp3")
 
 var pause_pos: float = 0.0
 
@@ -28,10 +28,10 @@ func _play_bgm(bgm: AudioStream, volume: float = 0.0, start: float = 0.0):
 		
 func _play_mirage():
 	_play_bgm(mirage_bgm,-4)
-	
-func _play_chimera():
-	# Waiting for permission to use the 8-bit Chimera remix from Youtube
-	_play_bgm(chimera_bgm,-4)
+
+# Waiting for permission to use the 8-bit Chimera remix from Youtube	
+#func _play_chimera():
+	#_play_bgm(chimera_bgm,-4)
 
 func _adjust_volume(new_vol_linear: float = 0.0):
 	volume_db = linear_to_db(new_vol_linear)

@@ -24,8 +24,8 @@ func _on_go_back_button_mouse_entered() -> void:
 func _on_option_button_item_selected(index: int) -> void:
 	if index == 0:
 		BgmPlayer._play_mirage()
-	elif index == 1:
-		BgmPlayer._play_chimera()
+	#elif index == 1:
+		#BgmPlayer._play_chimera()
 
 
 func _on_check_box_toggled(toggled_on: bool) -> void:
