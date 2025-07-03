@@ -1,13 +1,15 @@
-[gd_scene load_steps=4 format=3 uid="uid://bpidamg441m28"]
+[gd_scene load_steps=5 format=3 uid="uid://bpidamg441m28"]
 
 [ext_resource type="Script" uid="uid://cdq8vmtiot7sj" path="res://game_list_item.gd" id="1_2n7jr"]
 [ext_resource type="Texture2D" uid="uid://csjr2wnlmi7od" path="res://icon.svg" id="1_hnvx1"]
+[ext_resource type="Theme" uid="uid://bc6m2atfysvgw" path="res://SubTheme.tres" id="1_knkxb"]
 [ext_resource type="Script" uid="uid://cpb47dfyhw6yw" path="res://addons/collapsible_container/collapsible_elements/collapsible_container.gd" id="2_eguc7"]
 
 [node name="PanelContainer" type="PanelContainer"]
 offset_right = 841.0
 offset_bottom = 132.0
 size_flags_horizontal = 3
+theme = ExtResource("1_knkxb")
 script = ExtResource("1_2n7jr")
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]

@@ -1,4 +1,4 @@
-[gd_scene load_steps=0 format=3 uid="uid://dgqkl7s2vkc7h"]
+[gd_scene format=3 uid="uid://dgqkl7s2vkc7h"]
 
 [node name="PanelContainer" type="PanelContainer"]
 offset_right = 841.0

@@ -1,9 +1,10 @@
-[gd_scene load_steps=5 format=3 uid="uid://cm111650852qp"]
+[gd_scene load_steps=6 format=3 uid="uid://cm111650852qp"]
 
 [ext_resource type="Script" uid="uid://bevmsqreu5onh" path="res://game_list.gd" id="1_cfuuo"]
 [ext_resource type="Texture2D" uid="uid://dqxw5vlmkiihn" path="res://assets/kfpbackground.png" id="1_ri3ii"]
 [ext_resource type="Script" uid="uid://2kbrxwga57ma" path="res://game_list_container.gd" id="2_6ag1g"]
 [ext_resource type="PackedScene" uid="uid://bpidamg441m28" path="res://game_list_item.tscn" id="3_hweat"]
+[ext_resource type="Theme" uid="uid://uqt4q735a5i" path="res://MainTheme.tres" id="3_vvyat"]
 
 [node name="GameList" type="Control"]
 layout_mode = 3
@@ -38,6 +39,7 @@ offset_right = 443.0
 offset_bottom = 350.5
 grow_horizontal = 2
 grow_vertical = 2
+theme = ExtResource("3_vvyat")
 
 [node name="MarginContainer" type="MarginContainer" parent="PanelContainer"]
 layout_mode = 2
