@@ -1,14 +1,28 @@
-[gd_scene format=3 uid="uid://dgqkl7s2vkc7h"]
+[gd_scene load_steps=5 format=3 uid="uid://dgqkl7s2vkc7h"]
+
+[ext_resource type="Theme" uid="uid://bc6m2atfysvgw" path="res://SubTheme.tres" id="1_gl3gb"]
+
+[sub_resource type="FontVariation" id="FontVariation_qlkgn"]
+variation_embolden = 0.4
+spacing_glyph = 2
+
+[sub_resource type="LabelSettings" id="LabelSettings_2u5ap"]
+font = SubResource("FontVariation_qlkgn")
+font_size = 43
+
+[sub_resource type="LabelSettings" id="LabelSettings_gl3gb"]
+font_size = 36
 
 [node name="PanelContainer" type="PanelContainer"]
 offset_right = 841.0
 offset_bottom = 132.0
 size_flags_horizontal = 3
+theme = ExtResource("1_gl3gb")
 
 [node name="MarginContainer" type="MarginContainer" parent="."]
 layout_mode = 2
 theme_override_constants/margin_left = 30
-theme_override_constants/margin_top = 10
+theme_override_constants/margin_top = 5
 theme_override_constants/margin_right = 30
 theme_override_constants/margin_bottom = 20
 
@@ -21,10 +35,12 @@ layout_mode = 2
 size_flags_horizontal = 6
 size_flags_vertical = 0
 text = "Chicken's Name"
+label_settings = SubResource("LabelSettings_2u5ap")
 
 [node name="Message" type="Label" parent="MarginContainer/VBoxContainer"]
 custom_minimum_size = Vector2(100, 50)
 layout_mode = 2
+label_settings = SubResource("LabelSettings_gl3gb")
 horizontal_alignment = 1
 vertical_alignment = 3
 autowrap_mode = 3

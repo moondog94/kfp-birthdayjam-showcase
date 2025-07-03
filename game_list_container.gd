@@ -18,10 +18,10 @@ var items:Array:
 			var label = gamePanel.get_node_or_null("VBoxContainer/HBoxContainer/VBoxContainer/Label")  # Adjust path if it's nested
 			var description = gamePanel.get_node_or_null("VBoxContainer/HBoxContainer/VBoxContainer/Description")
 			var logo = gamePanel.get_node_or_null("VBoxContainer/HBoxContainer/Logo")
-			var playButton = gamePanel.get_node_or_null("VBoxContainer/HBoxContainer/VBoxContainer/MarginContainer/LinkButton")
+			#var playButton = gamePanel.get_node_or_null("VBoxContainer/HBoxContainer/VBoxContainer/MarginContainer/LinkButton")
 			label.text = game.Name
 			description.text = game.Description
-			playButton.uri = game.URI
+			gamePanel.set_meta("URI", game.URI)
 			
 			if logo && game.ImageURL != "":
 				var image = Image.load_from_file("res://assets/" + game.ImageURL)

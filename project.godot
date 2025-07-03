@@ -38,6 +38,10 @@ version_control/autoload_on_startup=true
 
 enabled=PackedStringArray("res://addons/collapsible_container/plugin.cfg")
 
+[gui]
+
+theme/custom_font="uid://p44puit8hitm"
+
 [rendering]
 
 renderer/rendering_method="gl_compatibility"

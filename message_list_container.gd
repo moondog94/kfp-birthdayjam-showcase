@@ -11,6 +11,7 @@ var items:Array:
 			child.queue_free()
 			
 		items = value
+		items.shuffle()
 		
 		var messagePanel:PanelContainer
 		for message in items:

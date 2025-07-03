@@ -1,9 +1,32 @@
-[gd_scene load_steps=5 format=3 uid="uid://bpidamg441m28"]
+[gd_scene load_steps=12 format=3 uid="uid://bpidamg441m28"]
 
 [ext_resource type="Script" uid="uid://cdq8vmtiot7sj" path="res://game_list_item.gd" id="1_2n7jr"]
 [ext_resource type="Texture2D" uid="uid://csjr2wnlmi7od" path="res://icon.svg" id="1_hnvx1"]
 [ext_resource type="Theme" uid="uid://bc6m2atfysvgw" path="res://SubTheme.tres" id="1_knkxb"]
 [ext_resource type="Script" uid="uid://cpb47dfyhw6yw" path="res://addons/collapsible_container/collapsible_elements/collapsible_container.gd" id="2_eguc7"]
+[ext_resource type="Texture2D" uid="uid://isc5in4xw7iu" path="res://buttonspritesheet.png" id="4_vumav"]
+
+[sub_resource type="FontVariation" id="FontVariation_vumav"]
+variation_embolden = 0.4
+
+[sub_resource type="LabelSettings" id="LabelSettings_ut3sf"]
+font = SubResource("FontVariation_vumav")
+font_size = 43
+
+[sub_resource type="LabelSettings" id="LabelSettings_6m37v"]
+font_size = 30
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ut3sf"]
+atlas = ExtResource("4_vumav")
+region = Rect2(16, 421, 255, 67)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6m37v"]
+atlas = ExtResource("4_vumav")
+region = Rect2(562, 423, 255, 66)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tlp1u"]
+atlas = ExtResource("4_vumav")
+region = Rect2(286, 422, 254, 67)
 
 [node name="PanelContainer" type="PanelContainer"]
 offset_right = 841.0
@@ -32,20 +55,24 @@ layout_mode = 2
 size_flags_horizontal = 6
 size_flags_vertical = 0
 text = "Game Title"
+label_settings = SubResource("LabelSettings_ut3sf")
 
 [node name="Description" type="Label" parent="VBoxContainer/HBoxContainer/VBoxContainer"]
 custom_minimum_size = Vector2(100, 0)
 layout_mode = 2
+label_settings = SubResource("LabelSettings_6m37v")
 autowrap_mode = 2
 
 [node name="MarginContainer" type="MarginContainer" parent="VBoxContainer/HBoxContainer/VBoxContainer"]
 layout_mode = 2
+theme_override_constants/margin_top = 30
 
-[node name="LinkButton" type="LinkButton" parent="VBoxContainer/HBoxContainer/VBoxContainer/MarginContainer"]
+[node name="PlayButton" type="TextureButton" parent="VBoxContainer/HBoxContainer/VBoxContainer/MarginContainer"]
 layout_mode = 2
 size_flags_horizontal = 4
-text = "PLAY NOW"
-underline = 2
+texture_normal = SubResource("AtlasTexture_ut3sf")
+texture_pressed = SubResource("AtlasTexture_6m37v")
+texture_hover = SubResource("AtlasTexture_tlp1u")
 
 [node name="Button" type="Button" parent="VBoxContainer"]
 layout_mode = 2
@@ -80,7 +107,9 @@ offset_bottom = 190.0
 
 [node name="RichTextLabel" type="RichTextLabel" parent="VBoxContainer/CollapsibleContainer/PanelContainer"]
 layout_mode = 2
+theme_override_font_sizes/normal_font_size = 26
 fit_content = true
 scroll_active = false
 
+[connection signal="pressed" from="VBoxContainer/HBoxContainer/VBoxContainer/MarginContainer/PlayButton" to="." method="_on_play_button_pressed"]
 [connection signal="toggled" from="VBoxContainer/Button" to="." method="_on_show_more_button_toggled"]
