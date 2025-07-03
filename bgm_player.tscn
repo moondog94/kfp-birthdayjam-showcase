@@ -5,4 +5,5 @@
 [node name="BgmPlayer" type="AudioStreamPlayer"]
 script = ExtResource("1_11fpm")
 
+[connection signal="finished" from="." to="." method="_on_finished"]
 [connection signal="ready" from="." to="." method="_on_ready"]

@@ -66,3 +66,4 @@ layout_mode = 2
 text = "Back"
 
 [connection signal="button_down" from="PanelContainer/MarginContainer/VBoxContainer/Button" to="." method="_on_press_back_button"]
+[connection signal="mouse_entered" from="PanelContainer/MarginContainer/VBoxContainer/Button" to="." method="_on_button_mouse_entered"]

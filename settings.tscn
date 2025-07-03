@@ -72,9 +72,9 @@ anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
 offset_left = -190.0
-offset_top = -105.0
+offset_top = 14.0
 offset_right = 190.0
-offset_bottom = -70.0
+offset_bottom = 49.0
 grow_horizontal = 2
 grow_vertical = 2
 max_value = 10.0
@@ -113,9 +113,9 @@ color = Color(0.435294, 0.270588, 0.219608, 1)
 [node name="FXVolume" type="HSlider" parent="."]
 layout_mode = 1
 offset_left = 450.0
-offset_top = 394.0
+offset_top = 478.0
 offset_right = 830.0
-offset_bottom = 429.0
+offset_bottom = 513.0
 max_value = 10.0
 value = 10.0
 tick_count = 11
@@ -149,7 +149,89 @@ grow_horizontal = 2
 grow_vertical = 2
 color = Color(0.435294, 0.270588, 0.219608, 1)
 
+[node name="PlayWhenTabbedOut" type="CheckBox" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.578
+offset_left = -123.0
+offset_top = -101.0
+offset_right = 123.0
+offset_bottom = -126.16
+grow_horizontal = 2
+grow_vertical = 2
+text = "Play music when tabbed out"
+
+[node name="ColorRect" type="ColorRect" parent="PlayWhenTabbedOut"]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = -12.5
+offset_top = -20.0
+offset_right = 258.5
+offset_bottom = 20.0
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0.435294, 0.270588, 0.219608, 1)
+
+[node name="OptionButton" type="OptionButton" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -60.0
+offset_top = -174.0
+offset_right = 60.0
+offset_bottom = -143.0
+grow_horizontal = 2
+grow_vertical = 2
+alignment = 1
+selected = 0
+item_count = 2
+popup/item_0/text = "Mirage"
+popup/item_0/id = 0
+popup/item_1/text = "Chimera"
+popup/item_1/id = 1
+
+[node name="Label" type="Label" parent="OptionButton"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -50.0
+offset_top = -38.0
+offset_right = 50.0
+offset_bottom = -15.0
+grow_horizontal = 2
+text = "Select BGM"
+horizontal_alignment = 1
+
+[node name="ColorRect" type="ColorRect" parent="OptionButton/Label"]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -62.5
+offset_top = -20.0
+offset_right = 62.5
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.435294, 0.270588, 0.219608, 1)
+
 [connection signal="ready" from="." to="." method="_on_ready"]
+[connection signal="mouse_entered" from="GoBackButton" to="." method="_on_go_back_button_mouse_entered"]
 [connection signal="pressed" from="GoBackButton" to="." method="_on_go_back_button_pressed"]
 [connection signal="value_changed" from="BGMVolume" to="." method="_on_bgm_volume_value_changed"]
 [connection signal="value_changed" from="FXVolume" to="." method="_on_fx_volume_value_changed"]
+[connection signal="toggled" from="PlayWhenTabbedOut" to="." method="_on_check_box_toggled"]
+[connection signal="item_selected" from="OptionButton" to="." method="_on_option_button_item_selected"]

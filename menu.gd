@@ -1,8 +1,6 @@
 extends Control
 
 func _ready() -> void:
-	prints("BgmPlayer volume: " + str(BgmPlayer.volume_db))
-	prints("FXPlayer volume: " + str(FxPlayer.fx_volume_db))
 	BgmPlayer._play_mirage()
 
 func _on_game_list_button_pressed() -> void:
