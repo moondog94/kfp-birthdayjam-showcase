@@ -1,7 +1,7 @@
 [
 	{
 		"Name": "A Salt & Battering",
-		"ImageURL": "asalt&battery.png",
+		"ImageURL": "asalt&battering.png",
 		"URI": "https://theoku.itch.io/asaltandbattering",
 		"Description": "The KFP have decided to unionize, but someone has to feed these hungry customers!",
 		"Message": "Message from the team:
@@ -50,7 +50,7 @@ Fire (literally) all the slacking employees as Kiara and leave the working ones 
 	},
 	{
 		"Name": "DYNAMIC (wip)",
-		"ImageURL": "dyanmic.png",
+		"ImageURL": "dynamic.png",
 		"URI": "https://du5ksama.itch.io/dynamic",
 		"Description": "Mini fan game for KFP Birthday Jam 2025",
 		"Message": ""

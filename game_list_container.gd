@@ -23,6 +23,12 @@ var items:Array:
 			description.text = game.Description
 			playButton.uri = game.URI
 			
+			if logo && game.ImageURL != "":
+				var image = Image.load_from_file("res://assets/" + game.ImageURL)
+				logo.texture = ImageTexture.create_from_image(image)
+			else:
+				logo.visible = false
+			
 			if game.Message == "":
 				var button = gamePanel.get_node_or_null("VBoxContainer/Button")
 				var accordion = gamePanel.get_node_or_null("VBoxContainer/CollapsibleContainer")
