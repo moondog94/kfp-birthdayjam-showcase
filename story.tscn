@@ -1,8 +1,9 @@
-[gd_scene load_steps=5 format=3 uid="uid://suwtfqr354ua"]
+[gd_scene load_steps=6 format=3 uid="uid://bsogwgs6n3y87"]
 
 [ext_resource type="Texture2D" uid="uid://dqxw5vlmkiihn" path="res://assets/kfpbackground.png" id="1_76aiv"]
-[ext_resource type="Script" uid="uid://d3xwvhbalkx3p" path="res://story.gd" id="1_bwkhw"]
+[ext_resource type="Script" path="res://story.gd" id="1_bwkhw"]
 [ext_resource type="Theme" uid="uid://uqt4q735a5i" path="res://MainTheme.tres" id="2_4nfae"]
+[ext_resource type="Texture2D" uid="uid://grb1htsawbt7" path="res://assets/kiara2025.png" id="4_4nfae"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_bwkhw"]
 font_size = 26
@@ -61,7 +62,7 @@ horizontal_scroll_mode = 0
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme_override_constants/separation = 80
+theme_override_constants/separation = 4
 
 [node name="MessageDisclaimer" type="Label" parent="PanelContainer/MarginContainer/VBoxContainer/ScrollContainer/VBoxContainer"]
 layout_mode = 2
@@ -106,6 +107,12 @@ offset_bottom = 301.5
 grow_horizontal = 2
 grow_vertical = 2
 color = Color(0.435294, 0.270588, 0.219608, 1)
+
+[node name="TextureRect" type="TextureRect" parent="PanelContainer/MarginContainer/VBoxContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+texture = ExtResource("4_4nfae")
+expand_mode = 5
+stretch_mode = 4
 
 [node name="BackButton" type="Button" parent="PanelContainer/MarginContainer/VBoxContainer"]
 layout_mode = 2

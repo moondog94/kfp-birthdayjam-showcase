@@ -11,9 +11,11 @@ config_version=5
 [application]
 
 config/name="KFP Birthday Jam Showcase"
+config/version="1"
 run/main_scene="res://menu.tscn"
 config/features=PackedStringArray("4.4", "GL Compatibility")
-config/icon="res://icon.svg"
+config/icon="uid://dqxsx0duhv1hm"
+config/windows_native_icon="res://kfp-birthdayjam-lockup-horiz.ico"
 
 [autoload]
 
