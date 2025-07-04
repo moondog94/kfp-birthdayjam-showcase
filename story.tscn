@@ -1,7 +1,7 @@
 [gd_scene load_steps=6 format=3 uid="uid://bsogwgs6n3y87"]
 
 [ext_resource type="Texture2D" uid="uid://dqxw5vlmkiihn" path="res://assets/kfpbackground.png" id="1_76aiv"]
-[ext_resource type="Script" uid="uid://d3xwvhbalkx3p" path="res://story.gd" id="1_bwkhw"]
+[ext_resource type="Script" path="res://story.gd" id="1_bwkhw"]
 [ext_resource type="Theme" uid="uid://uqt4q735a5i" path="res://MainTheme.tres" id="2_4nfae"]
 [ext_resource type="Texture2D" uid="uid://grb1htsawbt7" path="res://assets/kiara2025.png" id="4_4nfae"]
 
@@ -98,9 +98,9 @@ anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
 offset_left = -402.5
-offset_top = -301.5
+offset_top = -323.5
 offset_right = 402.5
-offset_bottom = 301.5
+offset_bottom = 338.5
 grow_horizontal = 2
 grow_vertical = 2
 color = Color(0.435294, 0.270588, 0.219608, 1)
