@@ -42,7 +42,7 @@ enabled=PackedStringArray("res://addons/collapsible_container/plugin.cfg")
 
 [gui]
 
-theme/custom_font="uid://p44puit8hitm"
+theme/custom_font="uid://d2wqycht1v8ep"
 
 [rendering]
 
