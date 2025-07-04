@@ -16,17 +16,23 @@ const credits_text = "
 [font otv=\"emb=0.4\"][font_size=30]
 [font otv=\"emb=0.6\"][font_size=50]Showcase[/font_size][/font]
 
-[u]Lead Developer[/u]
+[u]Lead Developer, Pixel Artist[/u]
 Moondog
 
-[u]Music, Sound, Development[/u]
+[u]Project Manager, Music, Sound[/u]
 Davkas Plays
 
-[u]Testing, Development[/u]
+[u]Testing[/u]
 Dominik K
 
 [u]Testing[/u]
 Salubrious Beets
+
+[u]Banner Image[/u]
+Manzanita
+
+[u]Logo[/u]
+Spiritsnare
 
 
 
