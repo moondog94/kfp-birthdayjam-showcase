@@ -1,7 +1,7 @@
 [gd_scene load_steps=6 format=3 uid="uid://bsogwgs6n3y87"]
 
 [ext_resource type="Texture2D" uid="uid://dqxw5vlmkiihn" path="res://assets/kfpbackground.png" id="1_76aiv"]
-[ext_resource type="Script" path="res://story.gd" id="1_bwkhw"]
+[ext_resource type="Script" uid="uid://d3xwvhbalkx3p" path="res://story.gd" id="1_bwkhw"]
 [ext_resource type="Theme" uid="uid://uqt4q735a5i" path="res://MainTheme.tres" id="2_4nfae"]
 [ext_resource type="Texture2D" uid="uid://grb1htsawbt7" path="res://assets/kiara2025.png" id="4_4nfae"]
 
