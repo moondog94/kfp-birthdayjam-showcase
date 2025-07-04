@@ -27,3 +27,20 @@ func _on_settings_button_mouse_entered() -> void:
 func _on_settings_button_pressed() -> void:
 	FxPlayer.play_sword()
 	get_tree().change_scene_to_file("res://settings.tscn")
+
+
+func _on_story_button_pressed() -> void:
+	FxPlayer.play_sword()
+	get_tree().change_scene_to_file("res://story.tscn")
+
+func _on_story_button_mouse_entered() -> void:
+	FxPlayer.play_blip()
+
+
+func _on_credits_button_mouse_entered() -> void:
+	FxPlayer.play_blip()
+
+
+func _on_credits_button_pressed() -> void:
+	FxPlayer.play_sword()
+	get_tree().change_scene_to_file("res://credits.tscn")

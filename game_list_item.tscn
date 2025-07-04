@@ -4,13 +4,11 @@
 [ext_resource type="Texture2D" uid="uid://csjr2wnlmi7od" path="res://icon.svg" id="1_hnvx1"]
 [ext_resource type="Theme" uid="uid://bc6m2atfysvgw" path="res://SubTheme.tres" id="1_knkxb"]
 [ext_resource type="Script" uid="uid://cpb47dfyhw6yw" path="res://addons/collapsible_container/collapsible_elements/collapsible_container.gd" id="2_eguc7"]
+[ext_resource type="FontVariation" uid="uid://ccy1qlpb4yqdy" path="res://header_label_variation.tres" id="4_ut3sf"]
 [ext_resource type="Texture2D" uid="uid://isc5in4xw7iu" path="res://buttonspritesheet.png" id="4_vumav"]
 
-[sub_resource type="FontVariation" id="FontVariation_vumav"]
-variation_embolden = 0.4
-
 [sub_resource type="LabelSettings" id="LabelSettings_ut3sf"]
-font = SubResource("FontVariation_vumav")
+font = ExtResource("4_ut3sf")
 font_size = 43
 
 [sub_resource type="LabelSettings" id="LabelSettings_6m37v"]
