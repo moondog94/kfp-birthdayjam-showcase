@@ -1,7 +1,8 @@
-[gd_scene load_steps=7 format=3 uid="uid://dgqkl7s2vkc7h"]
+[gd_scene load_steps=8 format=3 uid="uid://dgqkl7s2vkc7h"]
 
 [ext_resource type="Theme" uid="uid://bc6m2atfysvgw" path="res://SubTheme.tres" id="1_gl3gb"]
 [ext_resource type="FontFile" uid="uid://3x5wpdd56kwh" path="res://LanaPixel.ttf" id="2_qlkgn"]
+[ext_resource type="FontFile" uid="uid://bems24j7abe4g" path="res://NotoColorEmoji-Regular.ttf" id="3_2u5ap"]
 
 [sub_resource type="FontVariation" id="FontVariation_qlkgn"]
 fallbacks = Array[Font]([ExtResource("2_qlkgn")])
@@ -13,7 +14,7 @@ font = SubResource("FontVariation_qlkgn")
 font_size = 43
 
 [sub_resource type="FontVariation" id="FontVariation_2u5ap"]
-fallbacks = Array[Font]([ExtResource("2_qlkgn")])
+fallbacks = Array[Font]([ExtResource("3_2u5ap"), ExtResource("2_qlkgn")])
 
 [sub_resource type="LabelSettings" id="LabelSettings_gl3gb"]
 font = SubResource("FontVariation_2u5ap")
