@@ -1,6 +1,6 @@
-[gd_scene load_steps=4 format=3 uid="uid://c08s28of2gsk7"]
+[gd_scene load_steps=4 format=3 uid="uid://dr2oc7bntqt0d"]
 
-[ext_resource type="Script" uid="uid://c8baydayq5w18" path="res://credits.gd" id="1_g4wvt"]
+[ext_resource type="Script" path="res://credits.gd" id="1_g4wvt"]
 [ext_resource type="Texture2D" uid="uid://dqxw5vlmkiihn" path="res://assets/kfpbackground.png" id="1_nm7lk"]
 [ext_resource type="Theme" uid="uid://uqt4q735a5i" path="res://MainTheme.tres" id="2_pjc1l"]
 

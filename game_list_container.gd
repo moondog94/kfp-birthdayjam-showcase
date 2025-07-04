@@ -24,8 +24,11 @@ var items:Array:
 			gamePanel.set_meta("URI", game.URI)
 			
 			if logo && game.ImageURL != "":
-				var image = Image.load_from_file("res://assets/" + game.ImageURL)
-				logo.texture = ImageTexture.create_from_image(image)
+				#var image = Image.load_from_file("res://assets/" + game.ImageURL)
+				#logo.texture = ImageTexture.create_from_image(image)
+				var img_texture_path = "res://assets/" + game.ImageURL
+				var img_texture = load(img_texture_path)
+				logo.texture = img_texture
 			else:
 				logo.visible = false
 			
