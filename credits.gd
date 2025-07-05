@@ -28,11 +28,14 @@ Dominik K
 [u]Testing[/u]
 Salubrious Beets
 
-[u]Banner Image[/u]
+[u]Banner Art[/u]
 Manzanita
 
 [u]Logo[/u]
 Spiritsnare
+
+[u]Background Art[/u]
+Aurick
 
 
 
