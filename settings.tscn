@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://u45pgm5uecf7"]
+[gd_scene load_steps=7 format=3 uid="uid://lf12ilounjmf"]
 
 [ext_resource type="Script" uid="uid://dx0ww834ilvuf" path="res://settings.gd" id="1_nkug2"]
 [ext_resource type="Texture2D" uid="uid://dqxw5vlmkiihn" path="res://assets/kfpbackground.png" id="2_3ykye"]

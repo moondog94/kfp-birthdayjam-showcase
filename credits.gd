@@ -126,7 +126,7 @@ AwesomeAxolotlt
 
 
 
-[font_size=50]Talkshow[/font_size][/font]
+[font_size=50]Talkshow[/font_size]
 
 [u]Developer[/u]
 asbestosstar
